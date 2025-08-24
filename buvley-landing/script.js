@@ -62,7 +62,7 @@ hero?.addEventListener('mousemove', (e)=>{
 			if(p.y<0||p.y>h) p.yv*=-1;
 			ctx.beginPath();
 			ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
-			ctx.fillStyle = `rgba(217,194,133,${p.alpha})`;
+			ctx.fillStyle = `rgba(255,255,255,${p.alpha})`;
 			ctx.fill();
 		}
 		raf = requestAnimationFrame(step);
